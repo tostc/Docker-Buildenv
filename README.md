@@ -10,7 +10,7 @@ For all these cases I like to introduce you, this project. Inside this repositor
 
 1. If you don't have already installed Docker, please install it.
 2. Clone or download this repository. Alternative you can just copy the content of the needed Dockerfile.
-3. Build the Dockerfile. `docker build -t NAME -f NAME_OF_DOCKERFILE`
+3. Build the Dockerfile. `docker build -t NAME -f NAME_OF_DOCKERFILE .`
 4. Open a terminal and navigate to your project directory.
 5. Start the container and mount your working directory.\
 Linux / Unix: `docker run --rm -it -v "$PWD":/root/env NAME_FROM_3`\
@@ -25,6 +25,7 @@ A list of all build enviroments inside this respository.
 | Name | Description | Please read |
 | ---- | ----------- | ----------- |
 | devkitPro-GBA | This container contains the GBA toolchain from [devkitPro](https://devkitpro.org/) to create homebrew GBA games | |
+| net5.0.Dockerfile | Build enviroment for .net5.0 | |
 
 # Contributing
 
