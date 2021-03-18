@@ -25,7 +25,7 @@ A list of all build enviroments inside this respository.
 | Name | Description | Please read |
 | ---- | ----------- | ----------- |
 | devkitPro-GBA | This container contains the GBA toolchain from [devkitPro](https://devkitpro.org/) to create homebrew GBA games | |
-| net5.0.Dockerfile | Build enviroment for .net5.0 | |
+| net5.0 | Build enviroment for .net5.0 | |
 
 # Contributing
 
