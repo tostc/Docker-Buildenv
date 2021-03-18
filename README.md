@@ -25,7 +25,10 @@ A list of all build enviroments inside this respository.
 | Name | Description | Please read |
 | ---- | ----------- | ----------- |
 | devkitPro-GBA | This container contains the GBA toolchain from [devkitPro](https://devkitpro.org/) to create homebrew GBA games | |
+| net2.1 | Build enviroment for .net2.1 LTS (Support until 2021-08-21) | |
+| net3.1 | Build enviroment for .net3.1 LTS (Support until 2022-12-03) | |
 | net5.0 | Build enviroment for .net5.0 | |
+| net6.0-preview2 | Build enviroment for .net6.0 preview 2 | |
 
 # Contributing
 
